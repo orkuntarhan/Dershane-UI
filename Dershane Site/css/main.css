@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.575)) ,url("/images/arkaplan.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-text {
+    margin-bottom: 60px;
+}
+
+.header-text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border: 3px solid #fff;
+    padding: 10px 10px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.header-text p {
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.header-text p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: orange;
+    margin: 30px auto;
+}
+
+.header-text a {
+    
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    color: white;
+}
+
+
+.menu a {
+    position: absolute;
+    font-size: 5px;
+}
+
+.menu a img {
+    width: 7.9em;
+    margin-top: 10em;
+    margin-left: 11em;
+    cursor: pointer;
+}
+
+
+
+.asa-ok {
+  position: absolute;
+  font-size: 5px;
+}
+
+.asa-ok img {
+    width: 7em;
+    margin-top: 20em;
+}
